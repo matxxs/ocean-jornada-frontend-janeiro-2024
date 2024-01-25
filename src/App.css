@@ -9,7 +9,18 @@
 }
 
 .card > h2 {
+  position: relative;
   font-size: 32px;
+}
+
+.card > h2::before {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 5px;
+  background-color: rgb(197, 178, 178);
+  border-radius: 10px;
 }
 
 .card .bio {

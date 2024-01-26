@@ -23,7 +23,7 @@
   border-radius: 10px;
 }
 
-.card .bio {
+.card .tags {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -31,7 +31,7 @@
   margin-bottom: 30px;
 }
 
-.card .bio > h3 {
+.card .tags .tag {
   margin: 0;
   background-color: white;
   color: rgb(87, 86, 86);

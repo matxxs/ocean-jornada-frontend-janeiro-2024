@@ -1,13 +1,27 @@
 import './App.css'
-import Card from './components/Card/Card'; 
+import Card from './components/Card/Card'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
+  const item1 = {
+    name: 'Rick Sanchez',
+    imageUrl: 'https://rickandmortyapi.com/api/character/avatar/1.jpeg' 
+  }
+  
+  const item2 = {
+    name: 'Morty Smith',
+    imageUrl: 'https://rickandmortyapi.com/api/character/avatar/2.jpeg'
+  }
+  
+  const item3 = {
+    name: 'Summer Smith',
+    imageUrl: 'https://rickandmortyapi.com/api/character/avatar/3.jpeg'
+  }
 
   return (
     <>
-      <Card item={item1} />
-      <Card item={item2} />
+      <Card />
+      <Card />
     </>
   )
 }

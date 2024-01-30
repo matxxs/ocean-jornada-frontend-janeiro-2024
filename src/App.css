@@ -1,45 +1,46 @@
 .card {
-  border: solid 1px white;
-  border-radius: 10px;
-  box-shadow: 4px 4px white;
-  padding: 16px;
-  text-align: center;  
-  max-width: 350px;
-  cursor: pointer;
-}
-
-.card > h2 {
-  position: relative;
-  font-size: 32px;
-}
-
-.card > h2::before {
-  content: '';
-  display: block;
-  position: absolute;
-  height: 100%;
-  width: 5px;
-  background-color: rgb(197, 178, 178);
-  border-radius: 10px;
-}
-
-.card .tags {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-  margin-bottom: 30px;
-}
-
-.card .tags .tag {
-  margin: 0;
-  background-color: white;
-  color: rgb(87, 86, 86);
-  padding: 5px 10px;
-  border-radius: 10px;
-  font-size: 16px;
-}
-
-.card > img {
-  border-radius: 10px;
-}
+    border: solid 1px white;
+    border-radius: 10px;
+    box-shadow: 4px 4px white;
+    padding: 16px;
+    text-align: center;  
+    cursor: pointer;
+  }
+  
+  .card > h2 {
+    font-size: 32px;
+    position: relative;
+  }
+  
+  .card > h2::before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 5px;
+    background-color: rgb(197, 178, 178);
+    border-radius: 10px;
+  }
+  
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    max-width: 350px;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+ .tag {
+    margin: 0;
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 12px;
+    border-radius: 8px;
+  }
+  
+  .card > img {
+    border-radius: 10px;
+  }
+  

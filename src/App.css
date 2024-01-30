@@ -1,46 +1,46 @@
 .card {
-    border: solid 1px white;
-    border-radius: 10px;
-    box-shadow: 4px 4px white;
-    padding: 16px;
-    text-align: center;  
-    cursor: pointer;
-  }
+  border: solid 1px white;
+  border-radius: 10px;
+  box-shadow: 4px 4px white;
+  padding: 16px;
+  text-align: center;  
+  cursor: pointer;
+}
   
-  .card > h2 {
-    font-size: 32px;
-    position: relative;
-  }
+.card > h2 {
+  font-size: 32px;
+  position: relative;
+}
   
-  .card > h2::before {
-    content: '';
-    display: block;
-    position: absolute;
-    height: 100%;
-    width: 5px;
-    background-color: rgb(197, 178, 178);
-    border-radius: 10px;
-  }
+.card > h2::before {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 5px;
+  background-color: rgb(197, 178, 178);
+  border-radius: 10px;
+}
   
 .tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    max-width: 350px;
-    justify-content: center;
-    margin-bottom: 30px;
-  }
- .tag {
-    margin: 0;
-    background-color: white;
-    color: black;
-    font-size: 12px;
-    font-weight: bold;
-    padding: 4px 12px;
-    border-radius: 8px;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: 300px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.tag {
+  background: white;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 4px 12px;
+}
   
-  .card > img {
-    border-radius: 10px;
-  }
+.card > img {
+  border-radius: 10px;
+}
   

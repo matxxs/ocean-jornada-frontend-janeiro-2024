@@ -20,6 +20,23 @@ function App() {
   
   const itens = [item1,item2,item3]
 
+  // Carregamento de dados via API (Backend)
+  async function loadApiData (){
+    //Declarar a URL da API
+  const apiUrl = 'https://rickandmortyapi.com/api/character/'
+
+    // Preparar e Executar a Requisição
+  const response = await fetch(apiUrl)
+
+  const body = await response.json()
+  console.log(body)
+
+  const results = body.results
+  }
+
+  // Chamando a função que carrega dados da API
+  loadApiData ()
+
   return (
     <>
       <div className='cards'>
